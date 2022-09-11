@@ -4,8 +4,7 @@ class Archive(models.Model):
     class Meta:
         ordering = ["-date_published"]
 
-    title = models.CharField(max_length=255, unique=True)
-    subtitle = models.CharField(max_length=255, blank=True)
+    title = models.CharField(max_length=255)
     slug = models.SlugField(primary_key=True, max_length=255, unique=True)
     body = models.TextField()
     date_created = models.DateTimeField(auto_now_add=True)
