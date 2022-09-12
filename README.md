@@ -10,8 +10,14 @@ Django
 
 ### Change the Database Schema
 1. modify `<app-name>/models.py`
-1. run `python manage.py makemigrations`
-1. run `python manage.py migrate`
+1. 
+    ```
+    python manage.py makemigrations
+    ```
+1. 
+    ```
+    python manage.py migrate
+    ```
 
 ### Clear the Migrations
 1. clear migrations table
