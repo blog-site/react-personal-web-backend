@@ -29,7 +29,7 @@ Django
     ```
     ./manage.py makemigrations <app-name>
     ```
-1. tidy up your migrations without making other database changes:
+1. Tidy up your migrations without making other database changes:
     ```
     ./manage.py migrate --fake <app-name>
     ```
