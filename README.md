@@ -134,6 +134,16 @@ data includes properties: `slug`, `title`, `published`.
 data includes properties: `slug`, `title`, `published`.
  - Ensure csrf
 #### `[DELETE]archive/view/<slug>`
+### Image
+#### `[GET]image/`
+ - Ensure csrf
+#### `[GET]image/<id>`
+#### `[POST]image/<id>`
+ - Ensure csrf
+#### `[PATCH]image/<id>`
+ - Ensure csrf
+#### `[DELETE]image/<id>`
+ - Ensure csrf
 ## Development
 ### Run the Backend Server for Development
 
